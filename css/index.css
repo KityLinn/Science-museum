@@ -1,1 +1,67 @@
-@import 'root.css'
+@import 'root.css';
+
+.info_head {
+    margin-top: 3vh;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.info_content {
+    width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: grid;
+    grid-template-areas: 
+    'a'
+    'b'
+    'c'
+    'd';
+    justify-content: center;
+    gap: 5vh;
+}
+
+
+.content_container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.one {
+    grid-area: a;
+}
+
+.two {
+    grid-area: b;
+}
+
+.three {
+    grid-area: c;
+}
+
+.four {
+    grid-area: d;
+}
+
+
+.img_container {
+    width: 375px;
+    height: 35vh;
+
+}
+
+.img_container img {
+    height: 100%;
+    width: 100%;
+}
+
+.content_container h3 {
+    margin: 10px;
+}
+
+.content_container p {
+    max-width: 365px;
+    padding-left: 5px;
+}
