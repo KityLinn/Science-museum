@@ -27,6 +27,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    border-bottom: 3px solid var(--line-color);
+    padding-bottom: 20px;
 }
 
 .one {
@@ -47,9 +49,7 @@
 
 
 .img_container {
-    width: 375px;
-    height: 35vh;
-
+    max-width: 600px;
 }
 
 .img_container img {
@@ -62,6 +62,24 @@
 }
 
 .content_container p {
-    max-width: 365px;
+    max-width: 600px;
     padding-left: 5px;
+}
+
+@media (min-width:1000px) {
+    .info_content {
+        grid-template-areas: 
+        'a b'
+        'c d';
+
+    }
+
+    .content_container {
+        height: 500px;
+    }
+
+    .two img {
+        margin-bottom: 120px;
+    }
+
 }
