@@ -78,8 +78,9 @@
         height: 500px;
     }
 
-    .two img {
-        margin-bottom: 120px;
+
+    .info_head {
+        font-size: 0.8rem;
     }
 
 }
