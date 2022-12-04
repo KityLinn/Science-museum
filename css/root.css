@@ -22,6 +22,7 @@ body {
     'head head'
     'main main'
     'footer footer';
+    color: var(--main-text-colo);
 }
 
 header {
@@ -126,6 +127,63 @@ footer {
     gap: 20px;
 
 }
+
+/* modal */
+
+#burger_menu {
+    display: none;
+}
+
+.modal {
+    display: none;
+}
+input[type="checkbox"]:checked ~.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+}
+
+.x-icon {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+}
+
+.x-icon i {
+    font-size: 2.6rem;
+}
+
+.modal_content {
+    background-color: var(--navbar-color);
+    height: 450px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.3rem;
+}
+
+.modal_nav {
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-bottom: 4px solid var(--main-text-colo);
+    text-align: center;
+    width: 100%;
+}
+
+.modal_nav a {
+    color: var(--main-text-colo);
+    text-decoration: none;
+}
+
+/* modal end*/
+
 
 @media (min-width:600px) {
     .info_content_box {
