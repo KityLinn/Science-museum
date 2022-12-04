@@ -9,7 +9,7 @@
 }
 
 .info_head {
-    background-image: url(../images/exhibition-1863344_1920.jpg);
+    background-image: url(../images/william-bout-264826.jpg);
     width: 100vw;
     max-width: 600px;
     height: 300px;
@@ -28,14 +28,13 @@
 
 .info_content {
     width: 100%;
-    margin-top: 5vh;
+    margin-top: 6vh;
     margin-bottom: 5vh;
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
     'a'
     'b'
-    'c'
-    'd';
+    'c';
     justify-content: center;
     gap: 5vh;
 }
@@ -51,6 +50,9 @@
     padding-bottom: 20px;
 }
 
+
+
+
 .one {
     grid-area: a;
 }
@@ -61,10 +63,6 @@
 
 .three {
     grid-area: c;
-}
-
-.four {
-    grid-area: d;
 }
 
 
@@ -80,20 +78,23 @@
 }
 
 .content_container h3 {
-    margin: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 .content_container p {
     max-width: 600px;
-    padding-left: 5px;
+    padding: 10px;
     margin-bottom: auto;
 }
 
 @media (min-width:1000px) {
     .info_content {
         grid-template-areas: 
-        'a b'
-        'c d';
+        '. a a a .  '
+        'b b . c c';
 
     }
 
@@ -107,4 +108,16 @@
         max-width: 60vw;
     }
 
+
+    .content_container h3 {
+        font-size: 1.4rem;
+
+    }
+    
+    .content_container p {
+        max-width: 600px;
+        padding: 10px;
+        font-size: 1.2rem;
+        margin-bottom: auto;
+    }
 }

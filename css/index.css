@@ -27,7 +27,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border-bottom: 3px solid var(--line-color);
+    border-bottom: 4px solid var(--line-color);
     padding-bottom: 20px;
 }
 
