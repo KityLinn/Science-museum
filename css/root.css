@@ -92,6 +92,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 5vh;
 }
 
 .info_content_box {
@@ -164,6 +165,12 @@ footer {
         gap: 100px;
         font-weight: 600;
     }
+
+    .desktop_header a {
+        color: var(--main-text-colo);
+        text-decoration: none;
+    }
+
     .info_text p {
         font-size: 1.1rem;
     }
