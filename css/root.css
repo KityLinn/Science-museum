@@ -19,9 +19,9 @@ body {
     background-color: var(--main-bg-color);
     display: grid;
     grid-template-areas: 
-    'head head'
-    'main main'
-    'footer footer';
+    'head'
+    'main'
+    'footer';
     color: var(--main-text-colo);
 }
 
