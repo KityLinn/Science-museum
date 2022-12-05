@@ -221,7 +221,7 @@ input[type="checkbox"]:checked ~.modal {
         justify-content: center;
         list-style: none;
         gap: 100px;
-        font-weight: 600;
+        font-weight: 700;
     }
 
     .desktop_header a {
