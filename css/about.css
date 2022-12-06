@@ -1,5 +1,7 @@
 @import 'root.css';
 
+/*Main site content*/
+
 .info_header {
     font-size: 0.8rem;
     margin-left: 10vw;
@@ -22,6 +24,8 @@
     gap: 40px;
 
 }
+
+/*Media queries*/
 
 @media (min-width:1000px) {
     .info_header {

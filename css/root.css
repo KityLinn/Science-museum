@@ -1,3 +1,5 @@
+/* Base styles and root*/
+
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +26,13 @@ body {
     'footer';
     color: var(--main-text-colo);
 }
+
+a {
+    color: var(--main-text-colo);
+    text-decoration: none;
+}
+
+/*Header with burger menu*/
 
 header {
     grid-area: head;
@@ -60,11 +69,12 @@ header {
     font-size: 2rem;
 }
 
-
 main {
     grid-area: main;
     height: fit-content;
 }
+
+/* Footer area*/
 
 footer {
     grid-area: footer;
@@ -88,6 +98,8 @@ footer {
     gap: 30px;
     font-size: 1.8rem;
 }
+
+/* Info box*/
 
 .info_box {
     width: 100%;
@@ -166,23 +178,22 @@ input[type="checkbox"]:checked ~.modal {
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .modal_nav {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
     border-bottom: 4px solid var(--main-text-colo);
     text-align: center;
     width: 100%;
 }
 
-.modal_nav a {
-    color: var(--main-text-colo);
-    text-decoration: none;
-}
 
 /* modal end*/
+
+
+/* Media queries*/
 
 
 @media (min-width:600px) {
@@ -224,10 +235,6 @@ input[type="checkbox"]:checked ~.modal {
         font-weight: 700;
     }
 
-    .desktop_header a {
-        color: var(--main-text-colo);
-        text-decoration: none;
-    }
 
     .info_text p {
         font-size: 1.1rem;
