@@ -3,9 +3,12 @@
 /*Main site content*/
 
 .info_header {
-    font-size: 0.8rem;
     margin-left: 10vw;
     margin-top: 5vh;
+}
+
+.info_header h1 {
+    font-size: 2rem;
 }
 
 .info_content {
@@ -45,17 +48,6 @@
     grid-area: c;
 }
 
-
-.img_container {
-    max-width: 600px;
-    height: 250px;
-}
-
-.img_container img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
 
 .content_container h3 {
     text-align: center;
