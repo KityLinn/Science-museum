@@ -4,8 +4,11 @@
 
 .info_head {
     margin-top: 3vh;
-    font-size: 0.8rem;
     text-align: center;
+}
+
+.info_head h1 {
+    font-size: 1.3rem;
 }
 
 .info_content {
