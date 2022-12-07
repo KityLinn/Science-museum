@@ -12,6 +12,7 @@
     --navbar-color:#E5E5FE;
     --main-text-colo:#1A1A1A;
     --line-color:#054D0F;
+    --line-styling: 4px solid var(--line-color);
     --main-font:'Encode Sans', sans-serif;
     --drop-shadow: drop-shadow(0 6px 4px rgba(5, 77, 15, 0.25));
     --text-shadow-head:4px 4px 0px var(--main-bg-color);
@@ -164,7 +165,7 @@ input[type="checkbox"]:checked ~.modal {
 .x-icon {
     position: absolute;
     right: 0;
-    padding: 10px;
+    padding: 18px;
 }
 
 .x-icon i {

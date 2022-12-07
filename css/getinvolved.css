@@ -21,7 +21,7 @@
     'b'
     'c';
     justify-content: center;
-    gap: 4vh;
+    gap: 3vw;
 }
 
 
@@ -31,7 +31,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border-bottom: 4px solid var(--line-color);
+    border-bottom: var(--line-styling);
     padding-bottom: 20px;
 }
 
