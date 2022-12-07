@@ -2,6 +2,7 @@
 
 /*Main site content*/
 
+
 .info_head_container {
     margin-top: 5vh;
     display: flex;
@@ -18,10 +19,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
+
 .info_head h1 {
+    font-size: 2rem;
     text-align: center;
     margin-top: 5vh;
     text-shadow: 4px 4px 0px var(--main-bg-color);
@@ -98,16 +100,13 @@
         grid-template-areas: 
         'a b'
         'c d';
-
     }
 
     .content_container {
         height: 500px;
     }
 
-
     .info_head {
-        font-size: 0.8rem;
         max-width: 60vw;
     }
 

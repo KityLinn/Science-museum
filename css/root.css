@@ -37,7 +37,7 @@ a {
 header {
     grid-area: head;
     background-color: var(--navbar-color);
-    border-radius: 0 0 8% 8%;
+    border-radius: 0 0 6% 6%;
     height: fit-content;
     filter: var(--drop-shadow);
 }
