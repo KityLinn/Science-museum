@@ -260,12 +260,9 @@ input[type="checkbox"]:checked ~.modal {
     }
 
     main {
-        margin: 0 7vw;
+        margin: 0 9vw;
     }
     header {
         height: 20vh;
     }
-
-
-    
 }
