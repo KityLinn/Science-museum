@@ -227,6 +227,7 @@ input[type="checkbox"]:checked ~.modal {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    object-position: left;
 }
 
 
@@ -288,6 +289,6 @@ input[type="checkbox"]:checked ~.modal {
         margin: 0 9vw;
     }
     header {
-        height: 20vh;
+        height: 22vh;
     }
 }
