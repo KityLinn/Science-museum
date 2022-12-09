@@ -291,4 +291,8 @@ input[type="checkbox"]:checked ~.modal {
     header {
         height: 22vh;
     }
+
+    .content_container {
+        height: 500px;
+    }
 }

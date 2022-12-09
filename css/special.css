@@ -83,10 +83,6 @@
 
     }
 
-    .content_container {
-        height: 500px;
-    }
-
 
     .info_head {
         font-size: 0.8rem;
@@ -100,9 +96,6 @@
     }
     
     .content_container p {
-        max-width: 600px;
-        padding: 10px;
-        font-size: 1.2rem;
-        margin-bottom: auto;
+        font-size: 1.1rem;
     }
 }
