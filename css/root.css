@@ -204,6 +204,32 @@ input[type="checkbox"]:checked ~.modal {
 /* modal end*/
 
 
+/* non-redundancy*/
+
+
+.content_container {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: var(--line-styling);
+    padding-bottom: 20px;
+}
+
+
+.img_container {
+    max-width: 600px;
+    height: 250px;
+}
+
+.img_container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
 /* Media queries*/
 
 

@@ -24,18 +24,6 @@
     gap: 3vw;
 }
 
-
-.content_container {
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border-bottom: var(--line-styling);
-    padding-bottom: 20px;
-}
-
-
 .one {
     grid-area: a;
 }
@@ -89,9 +77,8 @@
     }
     
     .content_container p {
-        max-width: 600px;
-        padding: 10px;
-        font-size: 1.2rem;
-        margin-bottom: auto;
+        max-width: 700px;
+        font-size: 1.1rem;
+
     }
 }

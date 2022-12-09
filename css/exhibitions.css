@@ -45,15 +45,6 @@
 }
 
 
-.content_container {
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border-bottom: var(--line-styling);
-    padding-bottom: 20px;
-}
 
 .one {
     grid-area: a;
@@ -72,16 +63,6 @@
 }
 
 
-.img_container {
-    max-width: 600px;
-    height: 250px;
-}
-
-.img_container img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
 
 .content_container h3 {
     margin: 10px;
