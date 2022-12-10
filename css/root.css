@@ -224,6 +224,12 @@ input[type="checkbox"]:checked ~.modal {
     box-shadow: var(--container-box-shadow);
 }
 
+.content_container p {
+    max-width: 580px;
+    padding: 10px;
+    margin-bottom: auto;
+}
+
 
 .img_container {
     max-width: 600px;
