@@ -76,6 +76,9 @@
     .info_head {
         max-width: 60vw;
     }
+    .content_container {
+        height: 560px;
+    }
 
 }
 

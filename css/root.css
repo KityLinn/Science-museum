@@ -330,7 +330,7 @@ input[type="checkbox"]:checked ~.modal {
         font-size: 1.4rem;
     }
     .content_container p {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     
 }
