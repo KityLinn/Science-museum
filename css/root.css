@@ -323,11 +323,14 @@ input[type="checkbox"]:checked ~.modal {
     }
 
     .content_container {
-        height: 500px;
+        height: 520px;
     }
 
     .content_container h2 {
         font-size: 1.4rem;
+    }
+    .content_container p {
+        font-size: 0.9rem;
     }
     
 }
