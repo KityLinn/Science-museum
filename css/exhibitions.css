@@ -78,9 +78,22 @@
         'c d';
     }
 
-
     .info_head {
         max-width: 60vw;
     }
 
+}
+
+@media (min-width:1600px) {
+    .content_container h3 {
+        font-size: 1.7rem;
+
+    }
+    
+    .content_container p {
+        font-size: 1.4rem;
+    }
+    .info_head h1 {
+        font-size: 2.5rem;
+    }
 }

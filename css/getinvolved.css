@@ -60,7 +60,6 @@
     
     .info_header {
         text-align: center;
-        font-size: 1.1rem;
         margin-left: 0;
     }
 
@@ -75,4 +74,28 @@
         font-size: 1.1rem;
 
     }
+}
+
+@media (min-width:1600px) {
+
+    .content_container {
+        height: 570px;
+    }
+
+    .info_header h1{
+        font-size: 2.2rem;
+
+    }
+
+
+    .content_container h3 {
+        font-size: 1.6rem;
+
+    }
+    
+    .content_container p {
+        max-width: 800px;
+        font-size: 1.3rem;
+    }
+    
 }

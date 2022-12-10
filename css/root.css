@@ -302,20 +302,43 @@ input[type="checkbox"]:checked ~.modal {
 
     .info_text p {
         font-size: 1.2rem;
+
     }
 
     .info_text h5 {
         font-size: 1.2rem;
+
     }
 
     main {
         margin: 0 9vw;
     }
     header {
-        height: 122px;
+        height: 130px;
     }
 
     .content_container {
         height: 500px;
     }
+}
+
+@media (min-width:1600px) {
+
+    .content_container {
+        height: 570px;
+    }
+
+    .content_container p {
+        font-size: 1.2rem;
+    }
+
+    .content_container h3 {
+        font-size: 1.5rem;
+    }
+
+    .desktop_header a {
+        font-size: 1.3rem;
+    }
+
+    
 }
