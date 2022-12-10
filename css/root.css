@@ -17,7 +17,7 @@
     --drop-shadow: drop-shadow(0 6px 4px rgba(5, 77, 15, 0.25));
     --text-shadow-head:4px 4px 0px var(--main-bg-color);
     --border-radius: 0.8rem;
-    --container-box-shadow: inset 0 -20px 20px #44724b6e;
+    --container-box-shadow: inset 0 -5px 20px rgba(68, 114, 75, 0.43);
     --hover-nav-color:rgba(26, 26, 26, 0.15);
 }
 
