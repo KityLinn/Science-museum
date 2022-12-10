@@ -41,10 +41,10 @@
 }
 
 
-.content_container h3 {
+.content_container h2 {
     text-align: center;
     margin-bottom: 20px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -64,8 +64,8 @@
     }
 
 
-    .content_container h3 {
-        font-size: 1.3rem;
+    .content_container h2 {
+        font-size: 1.6rem;
 
     }
     
@@ -87,11 +87,6 @@
 
     }
 
-
-    .content_container h3 {
-        font-size: 1.6rem;
-
-    }
     
     .content_container p {
         max-width: 800px;

@@ -64,11 +64,6 @@
 
 
 
-.content_container h3 {
-    margin: 10px;
-}
-
-
 /*Media queries*/
 
 @media (min-width:1000px) {
@@ -85,7 +80,7 @@
 }
 
 @media (min-width:1600px) {
-    .content_container h3 {
+    .content_container h2 {
         font-size: 1.7rem;
 
     }

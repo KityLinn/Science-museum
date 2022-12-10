@@ -230,6 +230,11 @@ input[type="checkbox"]:checked ~.modal {
     margin-bottom: auto;
 }
 
+.content_container h2 {
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
 
 .img_container {
     max-width: 600px;
@@ -320,6 +325,11 @@ input[type="checkbox"]:checked ~.modal {
     .content_container {
         height: 500px;
     }
+
+    .content_container h2 {
+        font-size: 1.4rem;
+    }
+    
 }
 
 @media (min-width:1600px) {
@@ -337,7 +347,7 @@ input[type="checkbox"]:checked ~.modal {
     }
 
     .desktop_header a {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 
     
