@@ -206,6 +206,10 @@ input[type="checkbox"]:checked ~.modal {
     background-color: var(--hover-nav-color);
 }
 
+.active {
+    background-color: var(--hover-nav-color);
+}
+
 
 /* modal end*/
 
@@ -302,6 +306,11 @@ input[type="checkbox"]:checked ~.modal {
     }
 
     .desktop_header :nth-child(3) a:hover {
+        background-color: transparent;
+    }
+
+    .active {
+        text-decoration: underline;
         background-color: transparent;
     }
 
